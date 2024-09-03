@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon2(1).png" type="image/x-icon">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="portfolio.jpg" type="image/x-icon">
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <!-- this is my header -->
+  <header>
+    <div class="header-style">
+      <nav>
+        <ul class="Slider">
+          <li onclick="hideSidebar()"><a href=""><i class="fa-solid fa-xmark"></i></a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#Services">Services</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul>
+          <li><a href="">
+              <h1>AK</h1>
+            </a></li>
+          <li class="hideOnMobile"><a href="#home">Home</a></li>
+          <li class="hideOnMobile"><a href="#about">About</a></li>
+          <li class="hideOnMobile"><a href="#Services">Services</a></li>
+          <li class="hideOnMobile"><a href="#skill">Skill</a></li>
+          <li class="hideOnMobile"><a href="#project">Project</a></li>
+          <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+          <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                viewBox="0 96 960 960" width="26">
+                <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+              </svg></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- this is my main -->
+  <main>
+    <!-- this is my home -->
+    <div id="home">
+      <div class="home-img">
+        <img src="logo.jpeg" class="main-img" alt="">
+      </div>
+      <div class="home-text">
+        <h4>Hello It's Me</h4>
+        <h1>AMIT KUMAR</h1>
+        <p>And I'm a <span class="text-slider"></span></p>
+        <div class="link">
+          
+          <a href="https://www.instagram.com/amitkumar_king_?igsh=MW00MjV3NDQwaGZ4Mg==" target="_blank">
+            <img src="instgram.png" alt="Instagram" class="social-icon">
+          </a>
+          <a href="https://www.snapchat.com/add/amitkumark5641?share_id=rBT2XhaaAS0&locale=en-IN" target="_blank">
+            <img src="snapchat.png" alt="Snapchat" class="social-icon">
+          </a>
+          <a href="https://www.linkedin.com/in/amit-kumar-web?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <img src="linkdin.png" alt="LinkedIn" class="social-icon">
+          </a>
+          <a href="https://x.com/ActiveAKPower?t=qsO_n7nbj3N3ZeI_BSAP1w&s=09" target="_blank">
+            <img src="twitter.png" alt="Twitter" class="social-icon">
+          </a>
+          
+          <a href="mailto:amitkumar8950764059@gmail.com">
+            <img src="gmail.png" alt="Email" class="social-icon">
+          </a>
+
+        </div>
+        <button id="downloadButton" class="cv">Download File</button>
+      </div>
+    </div>
+
+    <!-- this is my about -->
+    <div id="about" class="about">
+      <div class="img">
+        <img src="fram2.webp" class="fram" alt="">
+        <img src="logo.jpeg" class="fram-img" alt="">
+      </div>
+      <div class="about-me">
+        <p>Hello! I’m <span>AMIT KUMAR</span>, a web developer with a passion for creating exceptional digital
+          experiences. With a strong foundation in web development, UX/UI design, and programming, I specialize in
+          building engaging, user-centric websites and applications that stand out in today’s competitive landscape.</p>
+
+        <p>My expertise spans front-end and back-end development, enabling me to craft seamless and dynamic web
+          solutions. I focus on combining clean, efficient code with intuitive design, ensuring that every project is
+          both visually appealing and functionally robust.</p>
+        <p>I’m driven by the challenge of solving problems and improving user experiences. My portfolio showcases a
+          variety of projects, highlighting my skills in specific technologies or frameworks you use, e.g., HTML, CSS,
+          JavaScript, React, etc. I’m dedicated to continuous learning and innovation, always aiming to push the
+          boundaries of what’s possible on the web.</p>
+      </div>
+    </div>
+
+
+
+
+    <!-- this is my exprinece  -->
+    <div class="headline"><h9>Experience</h9></div>
+    <div class="exp">
+     
+      <div class="box1">
+        <img src="codsoftlogo.jpg" class="img-code" alt="">
+        <div class="text">
+          <h2>CODESOFT</h2>
+          <h3>WEB DEVELOPMENT</h3>
+          <p>Internship of 4 week form 25/07/2005 to 25/08/204</p>
+          <div class="CR">
+            <button id="Codesoftlatter">Offer Letter</button>
+            <button id="Certificate">Certificate</button>
+          </div>
+        </div>
+      </div>
+      <div class="box1">
+        <img src="codsoftlogo.jpg" class="img-code" alt="">
+        <div class="text">
+          
+          <h2>CODESOFT</h2>
+          <h3>WEB DEVELOPMENT</h3>
+          <p>Internship of 4 week form 25/07/2005 to 25/08/204</p>
+          <div class="CR">
+            <button id="Codesoftlatter1">Offer Letter</button>
+            <button id="Certificate1">Certificate</button>
+          </div>
+        </div>
+      </div>
+      <div class="box2">
+        <img src="codtech.jpg" alt="" class="img2">
+        <div class="text">
+          <h2>CODTECH IT</h2>
+          <h3>FRONTEND WD</h3>
+          <p>Internship of 8 week form 20/07/2005 to 20/09/204</p>
+          <div class="CR">
+            <button id="Codetechlatter">Offer Letter</button>
+            <button>Certificate</button>
+          </div>
+        </div>
+      </div>
+      <div class="box3">
+
+
+        <h2>Comming Soon</h2>
+
+      </div>
+    </div>
+    </div>
+
+
+
+    <!-- this is my Services -->
+    <div class="headline"><h9>Service</h9></div>
+     
+    <div id="Services">
+      <div class="services">
+        <div class="class">
+         <i><img src="Web Development.jpg" alt=""></i>
+          <H1>Web Development</H1>
+          <p>Web development is crucial for creating functional and engaging websites that drive business growth and
+            user satisfaction. It ensures a seamless user experience across devices, enhancing accessibility and
+            performance.</p>
+        </div>
+        <div class="class2">
+          <i><img src="UV IMG.png" alt=""></i>
+          <h1>UX/UI Design</h1>
+          <p>Transform your digital presence with our expert UX/UI design services. We create intuitive, visually
+            engaging experiences that connect with users and drive results.</p>
+        </div>
+        <div class="class3">
+          <i><img src="Coding-img.png" alt=""></i>
+          <h1>Coding</h1>
+          <p>Bring your ideas to life with our expert programming solutions. We deliver robust, scalable, and efficient
+            code tailored to your needs, ensuring seamless functionality and performance.</p>
+        </div>
+        <div class="class4">
+          <i><img src="Consulting & Maintenance.jpg" alt=""></i>
+          <h1>Consulting & Maintenance</h1>
+          <p>Optimize and sustain your digital solutions with our consulting and maintenance services. We provide expert
+            guidance and ongoing support to ensure peak performance and adaptability.</p>
+        </div>
+        <div class="class5">
+          <i><img src="img5.jpg" alt=""></i>
+          <h1>Website Redesign & Optimization</h1>
+          <p>Revitalize your online presence with our website redesign and optimization services. We enhance aesthetics
+            and performance to boost user engagement and drive better results.</p>
+        </div>
+        <div class="class6">
+          <i><img src="RESPONSIV.jpg" alt=""></i>
+          <h1>Responsive Website Design </h1>
+          <p>Revitalize your online presence with our website redesign and optimization services. We enhance aesthetics
+            and performance to boost user engagement and drive better results.</p>
+        </div>
+        <div class="class7">
+          <i><img src="Softwara development.jpg" alt=""></i>
+          <h1>Softwara development</h1>
+          <p>Unlock your business potential with our custom software development services. We build tailored,
+            high-performance solutions that meet your unique needs and drive growth.</p>
+        </div>
+        <div class="class8">
+          <i><img src="BEST AI USER.png" alt=""></i>
+          <h1>BEST AI USER</h1>
+          <p>Harness the power of AI with our expertise in creating top-tier AI-driven solutions. We optimize user
+            experiences and drive innovation through cutting-edge artificial intelligence.</p>
+        </div>
+        <div class="class9">
+          <i><img src="digital markating.png" alt=""></i>
+          <h1>Digital Markting</h1>
+          <p>Elevate your brand with our comprehensive digital marketing strategies. We drive targeted traffic, boost
+            engagement, and maximize ROI through data-driven campaigns and innovative solutions.</p>
+        </div>
+        <div class="class10">
+          <i><img src="wordpress.jpg" alt=""></i>
+          <h1>WordPress</h1>
+          <p>Transform your website with our expert WordPress development and customization. We create stunning,
+            functional sites that are easy to manage and optimized for performance.</p>
+        </div>
+      </div>
+
+    </div>
+    <!-- this is my skill -->
+    <div class="headline"><h9>Skill</h9></div>
+    <div id="skill">
+      <div class="skill">
+        <div class="id2" id="important-skill">
+          <i><img src="html.png" alt=""></i>
+          <h1>HTML</h1>
+        </div>
+        <div class="id3" id="important-skill">
+          <i><img src="css.png" alt=""></i>
+          <h1>CSS</h1>
+        </div>
+        <div class="id4" id="important-skill">
+          <i><img src="js.jpg" alt=""></i>
+          <h1>JS</h1>
+        </div>
+        <div class="id5" id="important-skill">
+          <i><img src="tailwind.png" alt=""></i>
+          <h1>Tailwind Css</h1>
+        </div>
+        <div class="id6" id="important-skill">
+          <i><img src="rectjs1.png" alt=""></i>
+          <h1>Reactjs</h1>
+        </div>
+        <div class="id7" id="important-skill">
+          <i><img src="git.png" alt=""></i>
+          <h1>GIT</h1>
+        </div>
+        <div class="id8" id="important-skill">
+          <i><img src="github.png" alt=""></i>
+          <h1>Github</h1>
+        </div>
+        <div class="id9" id="important-skill">
+          <i><img src="ai.png" alt=""></i>
+          <h1>Artificial intelligence</h1>
+        </div>
+
+      </div>
+      <div class="headline"><h9>programming</h9></div>
+      
+      <div class="programming">
+        <div class="id10" id="important-skill">
+          <i><img src="python.png" alt=""></i>
+          <h1>PYTHON</h1>
+        </div>
+        <div class="id11" id="important-skill">
+          <i><img src="java.png" alt=""></i>
+          <h1>JAVA</h1>
+
+        </div>
+        <div class="id12" id="important-skill">
+          <i><img src="clang..png" alt=""></i>
+          <h1>C Language</h1>
+        </div>
+        <div class="id13" id="important-skill">
+          <i><img src="C++.jpg" alt=""></i>
+          <h1>C++ Language</h1>
+        </div>
+        <div class="id4" id="important-skill">
+          <i><img src="js.jpg" alt=""></i>
+          <h1>Javascript</h1>
+        </div>
+      </div>
+      <div class="headline"><h9>Additional skills</h9></div>
+     
+      <div class="additional">
+        <div class="id15" id="important-skill">
+          <i><img src="sco.jpg" alt=""></i>
+          <h1>Search Engine Optimization</h1>
+        </div>
+        <div class="id14" id="important-skill">
+          <i><img src="Leadership.png" alt=""></i>
+          <h1>Leadership</h1>
+        </div>
+        <div class="id15" id="important-skill">
+          <i><img src="Analytics.png" alt=""></i>
+          <h1>Analytics and Data Analysis: </h1>
+        </div>
+        <div class="id16" id="important-skill">
+          <i><img src="socal.png" alt=""></i>
+          <h1>Social Media Marketing</h1>
+        </div>
+        <div class="id17" id="important-skill">
+          <i><img src="Problem solving.jpg" alt=""></i>
+          <h1>Problem solving</h1>
+        </div>
+        <div class="id18" id="important-skill">
+          <i><img src="teamwork.png" alt=""></i>
+          <h1>Teamwork</h1>
+        </div>
+        <div class="id19" id="important-skill">
+          <i><img src="create mind.jpg" alt=""></i>
+          <h1>Create Mind</h1>
+        </div>
+      </div>
+
+    </div>
+    <!-- this is my project -->
+    <div class="headline"><h9>Latest Project</h9></div>
+    
+    <div id="project">
+      <div class="project-number">
+        <div class="project1">
+          <a href="https://amitcode8950.github.io/Calcutor/">
+            <div class="projecrt-card1">
+              <img src="calcullater.png" class="prooject-img1" alt="">
+              <h1>Calculator</h1>
+              <p>The calculator allows you to perform basic arithmetic operations (+, -, , /) and displays results on an
+                easy-to-read screen. Use digit buttons (0-9) and the decimal point to input numbers, and the clear
+                button
+                (C) to reset the calculator.</p>
+            </div>
+          </a>
+        </div>
+        <div class="project2">
+          <a href="https://amitcode8950.github.io/baice-project/">
+            <div class="projecrt-card2">
+              <img src="PORTFOLTO Amit kumar.png" class="prooject-img2" alt="">
+              <h1>Fist Project</h1>
+              <p>This portfolio website showcases Amit Kumar's professional profile, including skills, education, and
+                experience, with a clean and responsive design. The interactive elements managed through HTML, CSS, and
+                JavaScript.</p>
+            </div>
+          </a>
+        </div>
+        <div class="project3">
+          <a href="https://amitcode8950.github.io/call-service/">
+            <div class="projecrt-card3">
+              <img src="call-service.png" class="prooject-img3" alt="">
+              <h1>Call Service</h1>
+              <p>It enhances user engagement by providing a clear, accessible contact form and detailed service
+                information, which can lead to increased customer interactions and business growth.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- this is my hobbes -->
+    <div class="headline"><h9>MY Hobbies</h9></div>
+   
+    <div class="hobbes" id="my-hobbes">
+      <div class="import-hobbes">
+        <div class="play1" id="my-hobbes1">
+          <i><img src="Open Source Contributions.png" alt=""></i>
+          <h1>Open Source Contributions</h1>
+        </div>
+        <div class="play2" id="my-hobbes1">
+          <i><img src="Coding Challenges and Competitions.jpg" alt=""></i>
+          <h1>Coding Challenges and Competitions</h1>
+        </div>
+        <div class="play3" id="my-hobbes1">
+          <i><img src="Tech Blogging.png" alt=""></i>
+          <h1>Tech Blogging</h1>
+        </div>
+        <div class="play4" id="my-hobbes1">
+          <i><img src="Learning New Programming Languages and Frameworks.png" alt=""></i>
+          <h1>Learning Languages and Frameworks</h1>
+        </div>
+        <div class="play5" id="my-hobbes1">
+          <i><img src="Building Personal Projects.png" alt=""></i>
+          <h1>Building Personal Projects</h1>
+        </div>
+        <div class="play6" id="my-hobbes1">
+          <i><img src="Gaming.png" alt=""></i>
+          <h1>Gaming</h1>
+        </div>
+        <div class="play7" id="my-hobbes1">
+          <i><img src="Attending Meetups and Conferences.png" alt=""></i>
+          <h1>Attending Meetups and Conferences</h1>
+        </div>
+        <div class="play8" id="my-hobbes1">
+          <i><img src="Participating in Hackathons.png" alt=""></i>
+          <h1>Participating in Hackathons</h1>
+        </div>
+        <div class="play9" id="my-hobbes1">
+          <i><img src="Mentoring and Teaching.png" alt=""></i>
+          <h1>Mentoring and Teaching</h1>
+        </div>
+        <div class="play10" id="my-hobbes1">
+          <i><img src="Reading Tech Books and Journals.png" alt=""></i>
+          <h1>Reading Tech Books and Journals</h1>
+        </div>
+
+      </div>
+    </div>
+    <!-- this is my contact -->
+    <div id="contact">
+      <div class="form-container">
+        <div id="formSection">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Select...</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <div class="form-group">
+                    <label for="feedback">Feedback:</label>
+                    <textarea id="feedback" name="feedback" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div id="thankYouMessage" class="hidden">
+            <h2>Thank You for Your Feedback!</h2>
+            <p>Your message has been sent successfully.</p>
+        </div>
+    </div>
+    </div>
+  </main>
+  <!-- this is my footer -->
+  <footer>
+    <div class="footer-content">
+      <p>Connect with me on social media:</p>
+      <div class="social">
+        <a href="https://wa.me/yourwhatsappnumber" target="_blank">
+          <img src="whatsapp.png" alt="WhatsApp" class="social-icon">
+          <span>WhatsApp</span>
+        </a>
+        <a href="https://www.instagram.com/amitkumar_king_?igsh=MW00MjV3NDQwaGZ4Mg==" target="_blank">
+          <img src="instgram.png" alt="Instagram" class="social-icon">
+          <span>Amitkumar_king</span>
+        </a>
+        <a href="https://www.snapchat.com/add/amitkumark5641?share_id=rBT2XhaaAS0&locale=en-IN" target="_blank">
+          <img src="snapchat.png" alt="Snapchat" class="social-icon">
+          <span>Amitkumark5641</span>
+        </a>
+        <a href="https://www.linkedin.com/in/amit-kumar-web?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+          <img src="linkdin.png" alt="LinkedIn" class="social-icon">
+          <span>Amit Kumar</span>
+        </a>
+        <a href="https://x.com/ActiveAKPower?t=qsO_n7nbj3N3ZeI_BSAP1w&s=09" target="_blank">
+          <img src="twitter.png" alt="Twitter" class="social-icon">
+          <span>Active AK Power</span>
+        </a>
+        <a href="https://discord.com/invite/Qv3ucsqC" target="_blank">
+          <img src="discode.png" alt="Discord" class="social-icon">
+          <span>Amit Kumar</span>
+        </a>
+        <a href="https://t.me/amitkumar8958" target="_blank">
+          <img src="tellegram.png" alt="Telegram" class="social-icon">
+          <span>amitkumar8958</span>
+        </a>
+        <a href="https://www.threads.net/@amitkumar_king_?xmt=AQGzgOUWGlUWpQ15sTLzGnlZMlJfM2M2hI0TSrfwPQp2iGM" target="_blank">
+          <img src="threads.png" alt="Threads" class="social-icon">
+          <span>amitkumar_king</span>
+        </a>
+        <a href="mailto:amitkumar8950764059@gmail.com">
+          <img src="gmail.png" alt="Email" class="social-icon">
+          <span>amitkumar8950764059@gmail.com</span>
+        </a>
+      </div>
+      <p class="copyright">© 2024 Amit Kumar. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
